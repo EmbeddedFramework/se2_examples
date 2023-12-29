@@ -51,8 +51,6 @@
 
 extern void appBoard_init(void)
 {
-    bsp_frdmkl46z_init();
-
     mma8451_init(efHal_dh_I2C0);
 }
 
