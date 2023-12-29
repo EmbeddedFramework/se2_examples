@@ -54,8 +54,6 @@ extern void appBoard_init(void)
     mma8451_ctrlReg4_t ctrlReg4;
     mma8451_ctrlReg5_t ctrlReg5;
 
-    bsp_frdmkl46z_init();
-
     mma8451_init(efHal_dh_I2C0);
 
     ctrlReg4.INT_EN_DRDY = 1;

@@ -50,7 +50,6 @@
 
 extern void appBoard_init(void)
 {
-    bsp_frdmkl46z_init();
 }
 
 /*==================[end of file]============================================*/
